@@ -1,8 +1,12 @@
 # Hey, I'm Mathews 👋
 
-Software engineer & founder based in Mauritius. I build software that solves real problems — starting with the ones I live with every day.
-
-Currently focused on [**Alebus**](https://your-alebus-link.com) — a real-time bus tracking and fleet operations platform I built out of years of daily frustration with unpredictable public transport on the island. I went from frustrated commuter to founder.
+**Backend Engineer · Go · Distributed Systems · Real-time Architecture**
+ 
+[![Portfolio](https://img.shields.io/badge/Portfolio-mathews--mwangi.com-000000?style=flat&logo=safari&logoColor=white)](https://mathews-mwangi.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/mathews-mwangi-972839219)
+[![Email](https://img.shields.io/badge/Email-Get%20in%20touch-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:mathewsmwangi6927@gmail.com)
+ 
+*Building distributed backend systems designed for scale — event-driven architectures, high-throughput pipelines, and real-time infrastructure that operates reliably under continuous load.*
 
 ---
 
