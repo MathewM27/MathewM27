@@ -6,35 +6,25 @@ Currently focused on [**Alebus**](https://your-alebus-link.com) — a real-time 
 
 ---
 
-## 🚌 What I'm building
 
-**[Alebus](https://your-alebus-link.com)** — Real-time bus tracking & fleet operations for Mauritius
-
-- **Commuters** get live bus locations and ETAs via a React Native app
-- **Operators** get a fleet dashboard — route adherence, driver behaviour scoring, mileage-based service alerts
-
-> Built on Teltonika FMC GPS hardware · Go · Redis Pub/Sub · React Native
-
----
-
-## 🛠️ Tech stack
-
-```
-Backend        Go · Node.js · REST · WebSockets · gRPC
-Frontend       React · React Native
-Infra & DevOps Docker · Kubernetes · Terraform · Redis · CI/CD pipelines
-Hardware       Teltonika FMC GPS (fleet telematics)
-```
-
----
-
-## 📌 Selected projects
-
-| Project | What it is | Stack |
-|---|---|---|
-| [Alebus](https://your-alebus-link.com) | Real-time bus tracking & fleet ops platform | Go, React Native, Redis, GPS hardware |
-| [Lakazhub](https://your-lakazhub-link.com) | Two-sided rental marketplace for Mauritius | React, Node.js |
-
+ 
+## Flagship Project — Alebus
+ 
+**Real-time public transport intelligence platform for Mauritius**
+ 
+GPS telemetry from bus-mounted devices flows through an EMQX MQTT broker into a Go event-driven backend, fans out via Redis Pub/Sub to WebSocket clients, and surfaces as live bus locations and stop-by-stop ETAs — in under 760ms end-to-end. Designed, built, and deployed to production by a single engineer.
+ 
+| Metric | Value |
+|---|---|
+| End-to-end latency | ~760ms median (GPS ping → client render) |
+| Concurrent WebSocket connections | 10,000 (load tested) |
+| Architecture | DDD · 5 bounded contexts · Hexagonal |
+| Runnable Go binaries | 7 (sharing one module) |
+| Observability | Prometheus · Grafana · Dozzle |
+ 
+**Stack:** `Go (stdlib)` `PostgreSQL + PostGIS` `Redis` `MQTT / EMQX` `WebSockets` `Docker` `GitHub Actions` `React Native` `Next.js`
+ 
+→ ***[Backend API](https://github.com/MathewM27/alebus-api)** · **[Mobile App](https://github.com/MathewM27/alebus)** · **[Operator Dashboard](https://github.com/MathewM27/v0-operators-dashboard-app)** · **[GPS Tracker](https://github.com/MathewM27/alebus-gps-tracker)***
 ---
 
 ## ✍️ Writing
