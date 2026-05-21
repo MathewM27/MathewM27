@@ -51,9 +51,9 @@ I write about distributed systems, building in emerging markets, and lessons fro
 ## 📫 Let's connect
 
 - 🌐 [Portfolio](https://mathews-mwangi.com)
-- 💼 [LinkedIn](https://linkedin.com/in/your-handle)
+- 💼 [LinkedIn]([https://linkedin.com/in/your-handle](https://www.linkedin.com/in/mathews-mwangi-972839219/))
 - ✍️ [Blog](https://mathews-mwangi.com/blog)
-- 📧 your@email.com
+- 📧 mathewsmwangi6927@gmail.com
 
 ---
 
