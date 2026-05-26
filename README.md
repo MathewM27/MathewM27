@@ -46,7 +46,6 @@ GPS telemetry from bus-mounted devices flows through an EMQX MQTT broker into a 
 
 - 🌐 [Portfolio](https://mathews-mwangi.com)
 - 💼 [LinkedIn](https://www.linkedin.com/in/mathews-mwangi-972839219/)
-- ✍️ [Blog](https://mathews-mwangi.com/blog)
 - 📧 mathewsmwangi6927@gmail.com
 
 ---
