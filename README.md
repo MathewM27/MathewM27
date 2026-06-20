@@ -2,7 +2,7 @@
 
 I'm a full-stack engineer who thinks in systems. Give me a real problem and I'll take it from first principles to a shipped product — architecture, backend, front end, infrastructure, and the AI tooling that gets me there faster. I don't specialize in one layer of the stack; I specialize in owning the whole thing.
 
-That's shown up as a real-time transport platform built solo end-to-end ([Alebus](https://github.com/MathewM27/alebus-api)), a two-sided rental marketplace ([Lakazhub](https://github.com/MathewM27/lakazhub.v1)), and an ongoing freelance practice building production systems for clients across aviation, automotive, and other industries. Different problems, same approach: understand the system, design it properly, build it, and own the outcome.
+That's shown up as a real-time transport platform built solo end-to-end ([Alebus](https://github.com/MathewM27/alebus-public)), a two-sided rental marketplace ([Lakazhub](https://github.com/MathewM27/lakazhub.v1)), and an ongoing freelance practice building production systems for clients across aviation, automotive, and other industries. Different problems, same approach: understand the system, design it properly, build it, and own the outcome.
 
 I use AI deliberately as part of how I build — from architecture exploration to implementation — because it lets me move faster without lowering the bar on what I ship.
 
