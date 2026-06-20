@@ -29,13 +29,13 @@ BSc Computer Systems Engineering (First Class Honours), Middlesex University Mau
 
 Each of these started as a real problem, not a tech-stack exercise. The systems thinking is the constant; the stack is whatever the problem called for.
 
-**[Alebus](https://github.com/MathewM27/alebus-api)** — Mauritius has no reliable way to know when a bus is coming, so I built the missing infrastructure: GPS telemetry from bus-mounted devices flows through MQTT into a Go backend, fans out via Redis Pub/Sub, and reaches riders as live locations and ETAs in under 760ms end-to-end. Backend, React Native rider app, and Next.js operator dashboard — designed, built, and deployed to production solo.
+**[Alebus](https://github.com/MathewM27/alebus-public)** — Mauritius has no reliable way to know when a bus is coming, so I built the missing infrastructure: GPS telemetry from bus-mounted devices flows through MQTT into a Go backend, fans out via Redis Pub/Sub, and reaches riders as live locations and ETAs in under 760ms end-to-end. Backend, React Native rider app, and Next.js operator dashboard — designed, built, and deployed to production solo.
 | Metric | Value |
 |---|---|
 | End-to-end latency | ~760ms median (GPS ping → client render) |
 | Concurrent WebSocket connections | 10,000 (load tested) |
 | Architecture | DDD · 5 bounded contexts · Hexagonal |
-*[Backend API](https://github.com/MathewM27/alebus-api) · [Mobile App](https://github.com/MathewM27/alebus) · [Operator Dashboard](https://github.com/MathewM27/v0-operators-dashboard-app) · [GPS Tracker](https://github.com/MathewM27/alebus-gps-tracker)*
+* [Mobile App](https://github.com/MathewM27/alebus) · [Operator Dashboard](https://github.com/MathewM27/v0-operators-dashboard-app) · [GPS Tracker](https://github.com/MathewM27/alebus-gps-tracker)*
 
 **Freelance client work** — I run an independent practice end to end: scoping, requirements, pricing, and delivery, not just implementation.
 - **Lifestyle Aviation Jet Limited** — multi-phase engagement for a private aviation charter company: Next.js website redesign shipped, with a companion React Native/Expo mobile app for bookings and services currently in development
